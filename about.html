@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>TSF fund is aimed at strengthening the fight against COVID-19. It will further availability of quality treatment and encourage research on ways to beat coronavirus. I urge people fromm all walks of life to contribute to TSF|NGO. Together, let's solve challenges of the present and protect the future.</p>
+  <p>While many people don’t have extra funds right now, if you’re one of the lucky ones who do, consider donating to an organization that’s making a difference during the pandemic. Some possibilities include hospitals and health centers or national and local charities that provide housing, financial assistance, or food.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://www.thesparksfoundationsingapore.org/images/priyesh_kumar.jpg" alt="priyesh" style="width:100%">
+      <div class="container">
+        <h2>Priyesh Kumar</h2>
+        <p class="title">Founder</p>
+        <p>Priyesh is a technology enthusiast at his core. He is known for architecting, designing and developing large scale applications, and ensure security, scalability, and maintainability. A graduate of Indian Institute of Technology Delhi, and National University of Singapore, he works with VISA, NUS, and the likes with some of the large-scale projects of impact and his expertise is in Application Innovation, Machine Learning and Artificial Intelligence. He brings in more than 12 years of versatile experience to build The Sparks Foundation into an innovative social enterprise with impact at scale. He does a lot of volunteer work and mentorship; helping learners know more about latest technologies, methodologies and innovations.</p>
+        <p>priyesh@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
